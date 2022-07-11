@@ -1,0 +1,2 @@
+# This document contains the libraries necessary to run this project
+numpy
