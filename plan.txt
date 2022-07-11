@@ -1,0 +1,5 @@
+Steps:
+1. Scrape the web for book titles dataset
+2. Find reviews dataset for books
+3. Create recommendation model
+  a. Collaborative filtering (item-item)
