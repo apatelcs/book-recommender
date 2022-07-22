@@ -1,12 +1,17 @@
 import numpy as np
 
-# Calculates similarity score using average difference
-def calculate_similarity_avg_diff(item1, item2):
+def calculate_similarity_avg_diff(item1: np.array, item2: np.array) -> np.floating:
+    '''
+    Calculates similarity score using average difference
+    '''
     diff = item1 - item2
     return np.mean(diff)
 
-# Calculates cosine similarity between two arrays
-def calculate_similarity_cosine(item1, item2):
+
+def calculate_similarity_cosine(item1: np.array, item2: np.array) -> np.floating:
+    '''
+    Calculates cosine similarity between two arrays
+    '''
     return np.dot(item1, item2) / (np.linalg.norm(item1) * np.linalg.norm(item2))
 
 # This does not yet work
